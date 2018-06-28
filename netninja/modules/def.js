@@ -10,6 +10,16 @@ const bye = function() {
   console.log('bye');
 }
 
-module.exports.shutup = shutup;
-module.exports.hello = hello;
-module.exports.bye = bye;
+// this works too
+// module.exports.shutup = shutup;
+// module.exports.hello = hello;
+// module.exports.bye = bye;
+
+// or this
+module.exports = {
+  shutup: shutup,
+  hello: hello,
+  bye: bye,
+}
+
+
