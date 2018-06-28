@@ -1,4 +1,6 @@
-const shutup = require('./def');
+const stuff = require('./def');
 
 
-shutup();
+stuff.shutup();
+stuff.hello();
+stuff.bye();
